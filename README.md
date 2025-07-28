@@ -1,5 +1,5 @@
 # Fall Detection with Privacy-Preserving Facial Expression Recognition
-This project detects human falls in real-time using body pose estimation, while also ensuring privacy protection by blurring faces. At the same time, it recognizes facial expressions before blurring, giving useful insights without compromising identity.
+This project detects human falls in real-time using body pose estimation, while also ensuring privacy protection by blurring faces. At the same time, it recognizes facial expressions before blurring, giving useful privacy protected insights.
 
 ## Features
 Fall Detection – Uses pose landmarks (shoulders, hips) to detect unusual postures indicating a fall.
@@ -35,13 +35,7 @@ Alerts & Output – Displays “FALL DETECTED” in real-time and saves an annot
 ## Test
 Input: A video of a person walking and falling/Webcam live feed of falling.
 
-Output: The video with annotation:
-
-* “FALL DETECTED!” overlay
-
-* Blurred faces
-
-* Emotion labels like “happy” or “surprise”
+Output: The video with annotation: * “FALL DETECTED!” overlay * Blurred faces * Emotion labels like “happy” or “surprise”
 
 ## Future Improvements
 Use robust tracking to reduce false positives.
